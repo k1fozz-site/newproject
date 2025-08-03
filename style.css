@@ -14,6 +14,24 @@ body {
     justify-content: center;
 }
 
+.logo {
+    animation: rotation 8s infinite linear;
+}
+
+.logo:hover {
+    animation-play-state: paused;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .hero-title {
     font-size: 64px;
     line-height: 1.2;
@@ -118,6 +136,10 @@ body {
     }
 }
 
+.footer-link:nth-child(2) {
+    margin: 0 24px;
+}
+
 @media (max-width: 420px) {
     .flex-card-row {
         flex-direction: column;
@@ -134,5 +156,13 @@ body {
 
     .hero-title {
         font-size: 38px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-link:nth-child(2) {
+        margin: 0;
     }
 }
