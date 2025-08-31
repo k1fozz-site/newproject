@@ -1,0 +1,36 @@
+extends ../layout/pages-layout
+
+block title 
+    -var title = "Dota 2"
+
+block content
+    header 
+        .dota-box 
+            .container-xl.p-0 
+                .container
+                    .row 
+                        .col-xxl-6.col.xl-6.col-nd-12 
+                            .hero-section.pt-5 
+                                h1.hero-title.text-white.n-0 Dota 2
+                                p.hero-desc.text-white.my-5 
+                                    | Dota 2 - компьютерная игра по сети...
+                                p.hero-desc.text-white 
+                                    | В игре учатсвует две команды по 5 человек
+            .img-mobile 
+                img(src="./img/pic/dota-big.png" alt="")
+    
+
+    main 
+        section.galleryl.pt-5
+            .container-xl.p-0 
+                .container 
+                    h1.gallery-title Галерея
+
+                    .swiper.mySwiper 
+                        .swiper-wrapper 
+                            .swiper-slide 
+                                img(src="./img/pic/slide/dota-slide-1.png", alt="")
+                            .swiper-slide 
+                                img(src="./img/pic/sliders/dota-slide-2.png", alt="")
+                            .swiper-button-next 
+                            .swiper-button-prew

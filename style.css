@@ -32,6 +32,60 @@ body {
     }
 }
 
+.dota-box {
+    height: calc(100vh - 112px);
+    background-image: url("./image/dota-big.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+
+.gta-box {
+    height: calc(100vh - 112px);
+    background-image: url("./image/gta-big.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+
+.fortnite-box {
+    height: calc(100vh - 112px);
+    background-image: url("./image/fortnite-big.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+
+.gallery,
+.articles {
+    background-color: #f1efe4;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+
+    font-size: 10px;
+    background: #fff;
+    background: flex;
+    align-items: center;
+}
+
+.swiper-slide {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide {
+    width: 80%;
+}
+
 .hero-title {
     font-size: 64px;
     line-height: 1.2;
